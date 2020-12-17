@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>3D Printer Dashboard</title>
+	<link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+	<link href='styles.css' rel='stylesheet'>
+	<script src="login.js"></script>
+</head>
+<body>
+	<h2>Please Enter the Following Details:</h2>
+
+	<form name=login onsubmit="return validateForm()" method="post">
+		<label for="user">User:</label>
+		<input type="text" name="user" required>
+		<br>
+		<label for="pass">Password:</label>
+		<input type="password" name="pass" required>
+		<br>
+		<label for="domain">Domain:</label>
+		<input type="text" name="domain" required>
+		<br>
+		<input type="submit" value="Submit">
+	</form>
+
+</body>
+</html>
